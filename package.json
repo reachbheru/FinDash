@@ -1,0 +1,20 @@
+{
+  "name": "findash",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/reachbheru/FinDash#readme",
+  "bugs": {
+    "url": "https://github.com/reachbheru/FinDash/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reachbheru/FinDash.git"
+  },
+  "license": "ISC",
+  "author": "Bheru Prajapat",
+  "type": "modulejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
