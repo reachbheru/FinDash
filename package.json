@@ -12,9 +12,39 @@
   },
   "license": "ISC",
   "author": "Bheru Prajapat",
-  "type": "modulejs",
+  "type": "module",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "seed": "node seed-transactions.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "chalk": "^5.6.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.3.2",
+    "helmet": "^8.1.0",
+    "ioredis": "^5.10.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.3.3",
+    "mongoose-paginate-v2": "^1.9.4",
+    "morgan": "^1.10.1",
+    "multer": "^2.1.1",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^8.0.4",
+    "redis": "^5.11.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "eslint": "^10.1.0",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.1"
   }
 }
